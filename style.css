@@ -15,7 +15,7 @@ body {
 }
 :root {
   --clr1: lightblue;
-  --clr2: coral;
+  --clr2: rgb(243, 80, 21);
 }
 label {
   position: relative;
