@@ -21,6 +21,7 @@ label {
   position: relative;
   width: 150px;
   height: 150px;
+  margin: 4px;
 }
 label input {
   appearance: none;
@@ -32,7 +33,7 @@ label .face {
   cursor: pointer;
   border-radius: 50%;
   mix-blend-mode: lighten;
-  transition: 0.75s;
+  transition: 0.5s;
 }
 label input:checked ~ .face{
   background: var(--clr1);
